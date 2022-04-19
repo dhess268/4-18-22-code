@@ -76,3 +76,13 @@ function squareOrSquareRoot(array) {
       return Math.min(...args)
     }
   }
+
+
+  // simple self explainatory function
+  function problem(x){
+    if(typeof x === 'number'){
+      return x * 50 + 6
+      
+    }
+    return "Error"
+  }
